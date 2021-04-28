@@ -6,10 +6,10 @@ addpath('Data');
 addpath('Functions');
 
 %% load image sequence
-load VinylCN; % colored image sequence
-imgC=VinylCN;
-load VinylN; % grayscale image sequence
-img=VinylN;
+load TownC; % colored image sequence
+imgC=TownC;
+load Town; % grayscale image sequence
+img=Town;
 
 %%parameters (typically, following values give good results)
 nei=2;      % (nei=0) 6-connected; (nei=1) 18-connected; (nei=2) 26-connected
