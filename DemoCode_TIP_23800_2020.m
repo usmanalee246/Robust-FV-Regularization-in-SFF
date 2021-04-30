@@ -1,5 +1,4 @@
-% Demo code for reviewers
-% TIP-23800-2020
+% Demo code for "Robust focus volume regularization in shape from focus"
 
 %% add path of folders
 addpath('Data');
