@@ -26,7 +26,7 @@ FV=scale_volume(FV,[0 1]); % scale FV
 [img,~]=scale_volume(img,[0 1]); % scale grayscale image sequence (to be used as guidance)
 
 %% initialization
-u0 = threeDL1(FV,0.1,0.3,1.618,5,5e-4); % initialization using Eq. 19 of manuscript
+u0 = threeDL1(FV,0.1,0.3,1.618,5,5e-4); % initialization using Eq. 21 of manuscript
 
 %% iterative regularization
 uPR=volumeRegularizer(img,u0,FV,nei,lambda,alpha,beta,gamma,itr);
